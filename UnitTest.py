@@ -2,7 +2,7 @@ import unittest
 import requests
 
 
-url = "http://172.18.58.80/index.html"
+url = "http://172.18.58.80/creative/"
 
 
 # Each test class must be a subclass of unittest.TestCase

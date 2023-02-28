@@ -2,7 +2,7 @@
 import requests
 
 # Set the target webpage
-url = 'http://www.wikipedia.org'
+url = 'http://172.18.58.80/creative/'
 
 
 # Perform a GET request on the target website
@@ -26,9 +26,9 @@ for x in h.headers:
 print("**********")
 
 
-# Modify the Header user-agent to display "iPhone 14"
+# Modify the Header user-agent to display "Mobile"
 headers = {'User-Agent': 'Mobile'}
-# Test against test site that output the requester user-agent
+
 #url2 = 'http://httpbin.org/headers'
 url2 = 'http://172.18.58.80/headers.php'
 request_header = requests.get(url2, headers=headers)
